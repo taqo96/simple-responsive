@@ -1,0 +1,53 @@
+body, nav, header, section, article, div {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+section:before, section:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body {
+	background-color: #e1e4ed;
+}
+
+nav {
+	height: 150px;
+	background: #9a9da5;
+	width: 1200px;
+	margin: 0 auto;
+}
+header {
+	height: 400px;
+	background: #fcfcf9;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+main section {
+	width: 1200px;
+	margin: 0 auto;
+	background: grey;
+}
+
+main section div {
+	height: 300px;
+	width: 100px;
+	padding: 0;
+	margin: 0;
+	background: #e1e5b3;
+	float: left;
+}
+section div:nth-child(2n) {
+	background: #939673;
+
+}
+footer {
+	height: 200px;
+	width: 1200px;
+	margin: 0 auto;
+	background: #fcfcf9;
+
+}
